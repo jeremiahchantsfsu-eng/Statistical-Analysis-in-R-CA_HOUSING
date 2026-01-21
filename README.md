@@ -17,7 +17,7 @@ Data Preparation: I imported the CaHousing.xls dataset and isolated the numerica
 
 
 
-# CODE FOR CONSOLE
+# Statistical Data including Aggregate Fucntions (MEAN, MIN, MAX,)
 <img width="467" height="560" alt="Screenshot 2026-01-20 at 9 54 38 PM" src="https://github.com/user-attachments/assets/181fb0ec-bbf8-4170-8791-44e264dd96d1" />
 
 ## Plot(Model) Visualizations
