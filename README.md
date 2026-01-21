@@ -17,6 +17,19 @@ Data Preparation: I imported the CaHousing.xls dataset and isolated the numerica
 
 
 
+# CODE FOR CONSOLE
+<img width="467" height="560" alt="Screenshot 2026-01-20 at 9 54 38 PM" src="https://github.com/user-attachments/assets/181fb0ec-bbf8-4170-8791-44e264dd96d1" />
 
+## Plot(Model) Visualizations
+# Residuals vs Leverage
+<img width="596" height="357" alt="Screenshot 2026-01-20 at 9 54 01 PM" src="https://github.com/user-attachments/assets/96ba01ca-63a6-443a-9177-b0525f096ee9" />
 
+# Scale Location
+#<img width="603" height="353" alt="Screenshot 2026-01-20 at 9 53 52 PM" src="https://github.com/user-attachments/assets/a6fc5be8-d8b5-43b7-a7a9-81b058f68d92" />
+
+# Normal Q-Q
+#<img width="597" height="355" alt="Screenshot 2026-01-20 at 9 53 42 PM" src="https://github.com/user-attachments/assets/acaa2581-5497-455e-8660-a009392f64e8" />
+
+# Residuals vs Fitted
+<img width="602" height="354" alt="Screenshot 2026-01-20 at 9 53 32 PM" src="https://github.com/user-attachments/assets/44069499-4fa2-4981-96db-5c765e490128" />
 
