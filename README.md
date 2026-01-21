@@ -11,7 +11,11 @@ This step is crucial because it proves the model can actually predict prices for
 
 # Road Map
 
-Data Preparation: I imported the CaHousing.xls dataset and isolated the numerical variables to ensure the data was in a compatible format for a linear regression algorithm.Data Partitioning: I split the data into an 80% training set to develop the model and a 20% test set to evaluate its predictive performance on unseen data.Model Building: Using the training dataset, I applied the lm() function to regress median_house_value against all other numerical predictors to identify their mathematical relationships.Model Evaluation: I analyzed the $R^2$ value and diagnostic plots, such as the Scale-Location plot, to assess the model's accuracy and verify that the statistical assumptions of linearity and constant variance were satisfied.
+Data Preparation: I imported the CaHousing.xls dataset and isolated the numerical variables to ensure the data was in a compatible format for a linear regression algorithm.Data 
+
+Partitioning: I split the data into an 80% training set to develop the model and a 20% test set to evaluate its predictive performance on unseen data.
+
+Model Building: Using the training dataset, I applied the lm() function to regress median_house_value against all other numerical predictors to identify their mathematical relationships.Model Evaluation: I analyzed the $R^2$ value and diagnostic plots, such as the Scale-Location plot, to assess the model's accuracy and verify that the statistical assumptions of linearity and constant variance were satisfied.
 
 
 
