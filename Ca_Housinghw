@@ -1,0 +1,39 @@
+library(readxl)
+ca_housing <- read_excel("~/Documents/CaHousing.xlsx")
+View(ca_housing)
+
+# Filter for only numerical variables as requested
+# (Removing categorical columns like 'ocean_proximity' if present)
+ca_housing_num <- ca_housing[, sapply(ca_housing, is.numeric)]
+
+
+# checking for missing values
+colSums(is.na(ca_housing_num))
+
+
+# remove Nulls
+ca_housing_num <- na.omit(ca_housing_num)
+
+
+# Set a seed so your results are reproducible
+set.seed(123)
+
+
+# Create an index for the split
+index <- sample(1:nrow(ca_housing_num), 0.8 * nrow(ca_housing_num))
+
+
+# Create the two datasets
+train_data <- ca_housing_num[index, ]
+test_data <- ca_housing_num[-index, ]
+
+
+# Build the model using the training data
+model <- lm(median_house_value ~ ., data = train_data)
+
+# predictions
+predictions <- predict(model, newdata = test_data)
+
+# evaluation of model performance
+rmse <- sqrt(mean((test_data$median_house_value - predictions)^2))
+rmse
